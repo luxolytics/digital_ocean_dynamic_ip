@@ -5,8 +5,8 @@ Python script to update DNS records at Digital Ocean for a server with a dynamic
 If you want to run a server at home, but don't have a static IP address, you can deploy this script on your server to keep the A records of your domain in sync with your dynamic IP
 
 # how
-- have Digital Ocean manage your domain records for the domain you want to use (it's free)
-- Set the TTL for your a records to 300 (5 minutes)
+- Have Digital Ocean manage your domain records for the domain you want to use (it's free)
+- Set the TTL for your A records to 300 (5 minutes)
 - Create Digital Ocean personal access token with "write" capabilities (API > Tokens/keys)
 - Copy the python script on your server
 - Replace "YOUR_OAUTH_TOKEN" with your personal access token from Digital Ocean
