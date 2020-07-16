@@ -7,7 +7,7 @@ If you want to run a server at home, but don't have a static IP address, you can
 # how
 - Have Digital Ocean manage your domain records for the domain you want to use (it's free)
 - Set the TTL for your A records to 300 (5 minutes)
-- Create Digital Ocean personal access token with "write" capabilities (API > Tokens/keys)
+- Create a Digital Ocean personal access token with "write" capabilities (API > Tokens/keys)
 - Copy the python script on your server
 - Replace "YOUR_OAUTH_TOKEN" with your personal access token from Digital Ocean
 - Replace "MYDOMAIN.COM" with your own top level domain
@@ -15,5 +15,5 @@ If you want to run a server at home, but don't have a static IP address, you can
 - You now have a server with a dynamic ip address that is accessable from the internet
 
 # other notes
-- This script updates all A records for teh domain, if you only need to update 1 record you'll need to edit the script
+- This script updates all A records for the domain, if you only need to update 1 record you'll need to edit the script
 - In order for your server to be accessable from your dynamic ip you will need to configure DMZ or port forwarding on your router
